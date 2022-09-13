@@ -1,0 +1,23 @@
+.floating :nth-child(2){
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+
+}
+.floating{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: var(--boxShadow);
+    align-items: center;
+border-radius: 18px;
+padding: 0px,28px,0px,0px;
+height: 4.5rem;
+/* top: -4%;
+left: 68%; */
+
+}
+.floating :nth-child(1){
+ transform: scale(.40);
+
+}

@@ -1,0 +1,47 @@
+.nav_wrap{
+    max-height: 90px;
+    height: 70px;
+    overflow: hidden;
+ 
+    color: white;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    
+}
+.nav-right .links{
+    display: flex;
+     gap: 35px;
+     align-items: center;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.navbar-item{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.logo{
+    font-size: 22px;
+    font-weight: 800;
+}
+.nav-left{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    color: black;
+    
+}
+.toggle{
+    font-size: 16px;
+    font-weight: 600;
+}
